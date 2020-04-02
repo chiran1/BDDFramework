@@ -7,7 +7,7 @@ When title of login page is Guru99 Bank Manager HomePage
 Then user entered username and password
 | username 		| password 	|
 | mngr251790 	| atUbevy 	|
-#| askfdjksdj	| ksjdfjsdk	|
+
  
  
 Then user click on login button
