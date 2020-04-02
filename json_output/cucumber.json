@@ -1,0 +1,286 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 1922922941,
+              "status": "passed"
+            },
+            "match": {
+              "location": "ManagerPageWithMap.setUp()"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "create contact scenario",
+        "description": "",
+        "id": "create-new-customer;create-contact-scenario",
+        "after": [
+          {
+            "result": {
+              "duration": 186560443,
+              "status": "passed"
+            },
+            "match": {
+              "location": "ManagerPageWithMap.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1236042390,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user is available on login Page",
+            "match": {
+              "location": "ManagerPageWithMap.user_already_on_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 10332900,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "title of login page is Guru99 Bank Manager HomePage",
+            "match": {
+              "location": "ManagerPageWithMap.title_of_login_page_is_Guru_Bank_Manager_HomePage()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 623842769,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user entered username and password",
+            "match": {
+              "location": "ManagerPageWithMap.user_enters_username_and_password(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "username",
+                  "password"
+                ],
+                "line": 8
+              },
+              {
+                "cells": [
+                  "mngr251790",
+                  "atUbevy"
+                ],
+                "line": 9
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 534388483,
+              "status": "passed"
+            },
+            "comments": [
+              {
+                "line": 10,
+                "value": "#| askfdjksdj\t| ksjdfjsdk\t|"
+              }
+            ],
+            "line": 13,
+            "name": "user click on login button",
+            "match": {
+              "location": "ManagerPageWithMap.user_click_on_login_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 5853063,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "user is on manager home page",
+            "match": {
+              "location": "ManagerPageWithMap.user_is_on_manager_home_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 7111507,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "title of the home page is Guru99 Bank Manager HomePage",
+            "match": {
+              "location": "ManagerPageWithMap.title_of_the_home_page_is_Guru_Bank_Manager_HomePage()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 704113624,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "mouse hover to contact and click New Customer",
+            "match": {
+              "location": "ManagerPageWithMap.mouse_hover_to_contact_and_click_New_Customer()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 118482640,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "user enter customer name",
+            "match": {
+              "location": "ManagerPageWithMap.user_enter_customer_name(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "name"
+                ],
+                "line": 19
+              },
+              {
+                "cells": [
+                  "binu"
+                ],
+                "line": 20
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 141767902,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "user enter gender",
+            "match": {
+              "location": "ManagerPageWithMap.user_enter_gender()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 431722599,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "user enter date of birth",
+            "match": {
+              "location": "ManagerPageWithMap.user_enter_date_of_birth()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2577946366,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "user enter adderss and city and state and PIN and mobile and email and Password",
+            "match": {
+              "location": "ManagerPageWithMap.user_enter_adderss(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "address",
+                  "city",
+                  "state",
+                  "PIN",
+                  "mobile",
+                  "email",
+                  "Password"
+                ],
+                "line": 25
+              },
+              {
+                "cells": [
+                  "Indiana",
+                  "carmel",
+                  "IN",
+                  "454545",
+                  "7074454463",
+                  "gorkha@hotmail.com",
+                  "skaljfdk45"
+                ],
+                "line": 26
+              },
+              {
+                "cells": [
+                  "IIndiana",
+                  "cCarmel",
+                  "IIN",
+                  "354545",
+                  "8074454463",
+                  "Gorkha@hotmail.com",
+                  "Skaljfdk45"
+                ],
+                "line": 27
+              },
+              {
+                "cells": [
+                  "IIndiana",
+                  "cCarmel",
+                  "IIN",
+                  "354545",
+                  "8074454463",
+                  "Gorkha@hotmail.com",
+                  "Skaljfdk45"
+                ],
+                "line": 28
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 264876779,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "user enter submit",
+            "match": {
+              "location": "ManagerPageWithMap.user_enter_submit()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 181006,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "close the browser",
+            "match": {
+              "location": "ManagerPageWithMap.close_the_browser()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "create new Customer",
+    "description": "",
+    "id": "create-new-customer",
+    "keyword": "Feature",
+    "uri": "/Users/binu/eclipse-workspace/CucumberBDD/src/main/java/Feature/map.feature"
+  }
+]
